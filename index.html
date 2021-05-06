@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>Random-Cartoon-Image-Generator</title>
+ <title>Image Generator</title>
+
+	<meta name="description" content="This is a simple personal website is owned By Afnan ">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/favicon.ico">
+	<meta property="og:url" content="Random-Image-Generator" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="image-Generator" />
+	<meta property="og:description" content="Random image Generator" />
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
  <link rel="stylesheet" type="text/css" href="style.css">
- <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
 </head>
 <body>
 
-<section>
- <h1>WHAT DOES YOUR NAME SAY ABOUT YOUR PERSONALITY?</h1>
- <div class="centerDiv">
-  <div class="details">
+<section id="gridcontainer">
+  <div class="col-sm-3">
+ <h1 class="col-sm-3">WHAT DOES YOUR NAME SAY ABOUT YOUR PERSONALITY?</h1>
+</div>
+ <div class="centerDiv" class="col-sm-5">
+  <div class="details" class="col-sm-4">
    <label>ENTER YOUR NAME</label><br>
-   <input type="text" name="" id="nameid">
+   <input type="text" name="Name" id="nameid">
   </div>
 
-  <div class="imgdiv">
-   <img src="Welcome-Image.jpg" width="200" height="200" class="imgchange">
+  <div class="imgdiv" class="col-sm-4">
+   <img src="Welcome-Image.jpg" width="180" height="140" class="imgchange">
   </div>
 
   <button> Click Here</button>
