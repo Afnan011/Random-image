@@ -11,23 +11,6 @@ html {
 body {
   background:rgb(87 173 129 / 75%);;
 }
-/* nav{
-  min-width: 10vh;
-  background: #0f1014;
-  color: white;
-  position: sticky;
-}
-nav ul{
-  display: flex;
-  align-items: center;
-  list-style: none;
-  justify-content: space-between;
-  font-weight: bolder;
-}
-nav img{
-  height: 5rem;
-  width: auto;
-} */
 
 /* Nav section */
 .main-head {
