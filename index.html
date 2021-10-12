@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Image Generator</title>
+
+	<meta name="description" content="This is a simple personal website is owned By Afnan ">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index,follow" />
+  <link rel="icon" href="images/user.png">
+  <link href="https://fonts.googleapis.com/css2?family=Girassol&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  
+<!-- navigartion bar  -->
+<header class="main-head">
+  <nav>
+    <h1 id="logo">AFNAN</h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- hero section -->
+<section  class="hero" id="grid-container">
+  <div>
+ <h1>WHAT DOES YOUR NAME SAY ABOUT YOUR PERSONALITY?</h1>
+</div>
+ <div class="centerDiv">
+  <div class="details" >
+   <label id="txt">ENTER YOUR NAME</label><br>
+   <input type="text" name="Name" id="nameid" maxlength="25">
+  </div>
+
+  <div class="imgdiv">
+   <img src="images/Welcome-Image.jpg" id = "getimg" class="imgchange">
+  </div>
+
+  <button onclick="randImg()"> Click Here</button>
+ </div>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
